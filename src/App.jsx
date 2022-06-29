@@ -1,14 +1,9 @@
-import { useState, useRef } from 'react';
-import { Header, Main, Footer } from './contect'
 import './App.scss';
+import Prive from './pages/prive.app/prive.app';
+import "antd/dist/antd.css"
+
 function App() {
-    return (
-      <>
-        <Header />
-        <Main />
-        <Footer />
-      </>
-    )
+   return <Prive />
 }
 
 export default App;

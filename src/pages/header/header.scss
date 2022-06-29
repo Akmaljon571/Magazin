@@ -1,0 +1,65 @@
+@import "../../utils/scss/var.scss";
+
+body{
+    background-color: #EAEAEA !important;
+}
+
+svg{
+    cursor: pointer;
+    &:hover{
+        color: $black;
+    }
+}
+
+
+.header{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   height: 60px;
+   width: 100%;
+   color: #838383;
+   margin-bottom: 22px;
+}
+
+.icon_span{
+    width: 16px;
+    height: 16px;
+    background-color: $sabzi;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 18px;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    border-radius: 50%;
+    margin-top: -5px;
+    margin-left: 10px;
+}
+
+.sersa{
+    margin-right: 45px;
+}
+
+.karzinka_span{
+    width: 16px;
+    height: 16px;
+    background-color: $sabzi;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 18px;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    border-radius: 50%;
+    margin-top: -5px;
+    margin-left: 10px;
+}
+
+.karzinka{
+    margin-right: 16px;
+}
